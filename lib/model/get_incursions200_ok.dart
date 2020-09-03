@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetIncursions200Ok {
   /* The constellation id in which this incursion takes place */

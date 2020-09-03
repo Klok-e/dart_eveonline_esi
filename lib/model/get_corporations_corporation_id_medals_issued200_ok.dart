@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationsCorporationIdMedalsIssued200Ok {
   /* ID of the character who was rewarded this medal */

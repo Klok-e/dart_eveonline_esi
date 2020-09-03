@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetSovereigntyCampaigns200Ok {
   /* Score for all attacking parties, only present in Defense Events.  */

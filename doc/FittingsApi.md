@@ -1,8 +1,8 @@
-# openapi.api.FittingsApi
+# dart_eveonline_esi.api.FittingsApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -23,7 +23,7 @@ Delete a fitting from a character  --- Alternate route: `/dev/characters/{charac
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -73,7 +73,7 @@ Return fittings of a character  --- Alternate route: `/dev/characters/{character
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -124,7 +124,7 @@ Save a new fitting for a character  --- Alternate route: `/dev/characters/{chara
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 

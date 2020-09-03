@@ -1,8 +1,8 @@
-# openapi.api.PlanetaryInteractionApi
+# dart_eveonline_esi.api.PlanetaryInteractionApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -24,7 +24,7 @@ Returns a list of all planetary colonies owned by a character.  --- Alternate ro
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -75,7 +75,7 @@ Returns full details on the layout of a single planetary colony, including links
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -126,7 +126,7 @@ List customs offices owned by a corporation  --- Alternate route: `/dev/corporat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -179,7 +179,7 @@ Get information on a planetary factory schematic  --- Alternate route: `/dev/uni
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = PlanetaryInteractionApi();
 var schematicId = 56; // int | A PI schematic ID

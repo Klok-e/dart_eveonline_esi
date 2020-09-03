@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCharactersCharacterIdContractsContractIdItems200Ok {
   /* true if the contract issuer has submitted this item with the contract, false if the isser is asking for this item in the contract */

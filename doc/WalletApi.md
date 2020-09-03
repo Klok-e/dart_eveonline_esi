@@ -1,8 +1,8 @@
-# openapi.api.WalletApi
+# dart_eveonline_esi.api.WalletApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -26,7 +26,7 @@ Returns a character's wallet balance  --- Alternate route: `/legacy/characters/{
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -77,7 +77,7 @@ Retrieve the given character's wallet journal going 30 days back  --- Alternate 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -130,7 +130,7 @@ Get wallet transactions of a character  --- Alternate route: `/dev/characters/{c
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -183,7 +183,7 @@ Get a corporation's wallets  --- Alternate route: `/dev/corporations/{corporatio
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -234,7 +234,7 @@ Retrieve the given corporation's wallet journal for the given division going 30 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -289,7 +289,7 @@ Get wallet transactions of a corporation  --- Alternate route: `/dev/corporation
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 

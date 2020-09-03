@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class PostCorporationsCorporationIdAssetsLocations200Ok {
   /* item_id integer */

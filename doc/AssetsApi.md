@@ -1,8 +1,8 @@
-# openapi.api.AssetsApi
+# dart_eveonline_esi.api.AssetsApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -26,7 +26,7 @@ Return a list of the characters assets  --- Alternate route: `/dev/characters/{c
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -79,7 +79,7 @@ Return a list of the corporation assets  --- Alternate route: `/dev/corporations
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -132,7 +132,7 @@ Return locations for a set of item ids, which you can get from character assets 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -183,7 +183,7 @@ Return names for a set of item ids, which you can get from character assets endp
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -234,7 +234,7 @@ Return locations for a set of item ids, which you can get from corporation asset
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -285,7 +285,7 @@ Return names for a set of item ids, which you can get from corporation assets en
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 

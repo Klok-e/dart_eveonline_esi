@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationCorporationIdMiningExtractions200Ok {
   /* The time at which the chunk being extracted will arrive and can be fractured by the moon mining drill.  */

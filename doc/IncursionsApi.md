@@ -1,8 +1,8 @@
-# openapi.api.IncursionsApi
+# dart_eveonline_esi.api.IncursionsApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -21,7 +21,7 @@ Return a list of current incursions  --- Alternate route: `/dev/incursions/`  Al
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = IncursionsApi();
 var datasource = datasource_example; // String | The server name you would like data from

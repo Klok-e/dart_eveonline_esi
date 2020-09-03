@@ -1,8 +1,8 @@
-# openapi.api.UniverseApi
+# dart_eveonline_esi.api.UniverseApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -50,7 +50,7 @@ Get all character ancestries  --- Alternate route: `/dev/universe/ancestries/`  
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var acceptLanguage = acceptLanguage_example; // String | Language to use in the response
@@ -99,7 +99,7 @@ Get information on an asteroid belt  --- Alternate route: `/dev/universe/asteroi
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var asteroidBeltId = 56; // int | asteroid_belt_id integer
@@ -146,7 +146,7 @@ Get a list of bloodlines  --- Alternate route: `/dev/universe/bloodlines/`  Alte
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var acceptLanguage = acceptLanguage_example; // String | Language to use in the response
@@ -195,7 +195,7 @@ Get a list of item categories  --- Alternate route: `/dev/universe/categories/` 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -240,7 +240,7 @@ Get information of an item category  --- Alternate route: `/dev/universe/categor
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var categoryId = 56; // int | An Eve item category ID
@@ -291,7 +291,7 @@ Get a list of constellations  --- Alternate route: `/dev/universe/constellations
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -336,7 +336,7 @@ Get information on a constellation  --- Alternate route: `/dev/universe/constell
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var constellationId = 56; // int | constellation_id integer
@@ -387,7 +387,7 @@ Get a list of factions  --- Alternate route: `/dev/universe/factions/`  Alternat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var acceptLanguage = acceptLanguage_example; // String | Language to use in the response
@@ -436,7 +436,7 @@ Get a list of graphics  --- Alternate route: `/dev/universe/graphics/`  Alternat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -481,7 +481,7 @@ Get information on a graphic  --- Alternate route: `/dev/universe/graphics/{grap
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var graphicId = 56; // int | graphic_id integer
@@ -528,7 +528,7 @@ Get a list of item groups  --- Alternate route: `/dev/universe/groups/`  Alterna
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -575,7 +575,7 @@ Get information on an item group  --- Alternate route: `/dev/universe/groups/{gr
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var groupId = 56; // int | An Eve item group ID
@@ -626,7 +626,7 @@ Get information on a moon  --- Alternate route: `/dev/universe/moons/{moon_id}/`
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var moonId = 56; // int | moon_id integer
@@ -673,7 +673,7 @@ Get information on a planet  --- Alternate route: `/dev/universe/planets/{planet
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var planetId = 56; // int | planet_id integer
@@ -720,7 +720,7 @@ Get a list of character races  --- Alternate route: `/dev/universe/races/`  Alte
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var acceptLanguage = acceptLanguage_example; // String | Language to use in the response
@@ -769,7 +769,7 @@ Get a list of regions  --- Alternate route: `/dev/universe/regions/`  Alternate 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -814,7 +814,7 @@ Get information on a region  --- Alternate route: `/dev/universe/regions/{region
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var regionId = 56; // int | region_id integer
@@ -865,7 +865,7 @@ Get information on a stargate  --- Alternate route: `/dev/universe/stargates/{st
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var stargateId = 56; // int | stargate_id integer
@@ -912,7 +912,7 @@ Get information on a star  --- Alternate route: `/dev/universe/stars/{star_id}/`
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var starId = 56; // int | star_id integer
@@ -959,7 +959,7 @@ Get information on a station  --- Alternate route: `/dev/universe/stations/{stat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var stationId = 56; // int | station_id integer
@@ -1006,7 +1006,7 @@ List all public structures  --- Alternate route: `/dev/universe/structures/`  Al
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -1053,7 +1053,7 @@ Returns information on requested structure if you are on the ACL. Otherwise, ret
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -1104,7 +1104,7 @@ Get the number of jumps in solar systems within the last hour ending at the time
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -1149,7 +1149,7 @@ Get the number of ship, pod and NPC kills per solar system within the last hour 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -1194,7 +1194,7 @@ Get a list of solar systems  --- Alternate route: `/dev/universe/systems/`  Alte
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -1239,7 +1239,7 @@ Get information on a solar system.  --- Alternate route: `/dev/universe/systems/
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var systemId = 56; // int | system_id integer
@@ -1290,7 +1290,7 @@ Get a list of type ids  --- Alternate route: `/dev/universe/types/`  Alternate r
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -1337,7 +1337,7 @@ Get information on a type  --- Alternate route: `/dev/universe/types/{type_id}/`
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var typeId = 56; // int | An Eve item type ID
@@ -1388,7 +1388,7 @@ Resolve a set of names to IDs in the following categories: agents, alliances, ch
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var names = [List&lt;String&gt;()]; // List<String> | The names to resolve
@@ -1437,7 +1437,7 @@ Resolve a set of IDs to names and categories. Supported ID's for resolving are: 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = UniverseApi();
 var ids = [List&lt;int&gt;()]; // List<int> | The ids to resolve

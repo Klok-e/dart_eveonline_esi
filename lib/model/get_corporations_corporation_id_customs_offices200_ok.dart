@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationsCorporationIdCustomsOffices200Ok {
   /* Only present if alliance access is allowed */

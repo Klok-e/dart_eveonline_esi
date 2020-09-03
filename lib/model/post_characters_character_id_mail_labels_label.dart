@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class PostCharactersCharacterIdMailLabelsLabel {
   /* Hexadecimal string representing label color, in RGB format */

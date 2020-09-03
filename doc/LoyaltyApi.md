@@ -1,8 +1,8 @@
-# openapi.api.LoyaltyApi
+# dart_eveonline_esi.api.LoyaltyApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -22,7 +22,7 @@ Return a list of loyalty points for all corporations the character has worked fo
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -73,7 +73,7 @@ Return a list of offers from a specific corporation's loyalty store  --- Alterna
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = LoyaltyApi();
 var corporationId = 56; // int | An EVE corporation ID

@@ -1,8 +1,8 @@
-# openapi.api.WarsApi
+# dart_eveonline_esi.api.WarsApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -23,7 +23,7 @@ Return a list of wars  --- Alternate route: `/dev/wars/`  Alternate route: `/leg
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = WarsApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -70,7 +70,7 @@ Return details about a war  --- Alternate route: `/dev/wars/{war_id}/`  Alternat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = WarsApi();
 var warId = 56; // int | ID for a war
@@ -117,7 +117,7 @@ Return a list of kills related to a war  --- Alternate route: `/dev/wars/{war_id
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = WarsApi();
 var warId = 56; // int | A valid war ID

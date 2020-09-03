@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetOpportunitiesGroupsGroupIdOk {
   /* The groups that are connected to this group on the opportunities map */

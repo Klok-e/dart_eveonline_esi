@@ -1,8 +1,8 @@
-# openapi.api.ContractsApi
+# dart_eveonline_esi.api.ContractsApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -29,7 +29,7 @@ Returns contracts available to a character, only if the character is issuer, acc
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -82,7 +82,7 @@ Lists bids on a particular auction contract  --- Alternate route: `/dev/characte
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -135,7 +135,7 @@ Lists items of a particular contract  --- Alternate route: `/dev/characters/{cha
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -188,7 +188,7 @@ Lists bids on a public auction contract  --- Alternate route: `/dev/contracts/pu
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = ContractsApi();
 var contractId = 56; // int | ID of a contract
@@ -237,7 +237,7 @@ Lists items of a public contract  --- Alternate route: `/dev/contracts/public/it
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = ContractsApi();
 var contractId = 56; // int | ID of a contract
@@ -286,7 +286,7 @@ Returns a paginated list of all public contracts in the given region  --- Altern
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = ContractsApi();
 var regionId = 56; // int | An EVE region id
@@ -335,7 +335,7 @@ Returns contracts available to a corporation, only if the corporation is issuer,
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -388,7 +388,7 @@ Lists bids on a particular auction contract  --- Alternate route: `/dev/corporat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -443,7 +443,7 @@ Lists items of a particular contract  --- Alternate route: `/dev/corporations/{c
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 

@@ -1,8 +1,8 @@
-# openapi.api.RoutesApi
+# dart_eveonline_esi.api.RoutesApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -21,7 +21,7 @@ Get the systems between origin and destination  --- Alternate route: `/dev/route
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = RoutesApi();
 var destination = 56; // int | destination solar system ID

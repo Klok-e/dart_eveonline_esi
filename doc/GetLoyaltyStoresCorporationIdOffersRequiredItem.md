@@ -1,8 +1,8 @@
-# openapi.model.GetLoyaltyStoresCorporationIdOffersRequiredItem
+# dart_eveonline_esi.model.GetLoyaltyStoresCorporationIdOffersRequiredItem
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

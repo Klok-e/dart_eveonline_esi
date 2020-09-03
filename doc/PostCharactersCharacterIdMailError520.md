@@ -1,8 +1,8 @@
-# openapi.model.PostCharactersCharacterIdMailError520
+# dart_eveonline_esi.model.PostCharactersCharacterIdMailError520
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

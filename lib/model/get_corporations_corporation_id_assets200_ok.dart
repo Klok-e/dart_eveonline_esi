@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationsCorporationIdAssets200Ok {
   /* is_blueprint_copy boolean */

@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetKillmailsKillmailIdKillmailHashItem {
   /* Flag for the location of the item  */

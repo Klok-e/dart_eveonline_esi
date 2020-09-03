@@ -1,8 +1,8 @@
-# openapi.api.DogmaApi
+# dart_eveonline_esi.api.DogmaApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -25,7 +25,7 @@ Get a list of dogma attribute ids  --- Alternate route: `/dev/dogma/attributes/`
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = DogmaApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -70,7 +70,7 @@ Get information on a dogma attribute  --- Alternate route: `/dev/dogma/attribute
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = DogmaApi();
 var attributeId = 56; // int | A dogma attribute ID
@@ -117,7 +117,7 @@ Returns info about a dynamic item resulting from mutation with a mutaplasmid.  -
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = DogmaApi();
 var itemId = 789; // int | item_id integer
@@ -166,7 +166,7 @@ Get a list of dogma effect ids  --- Alternate route: `/dev/dogma/effects/`  Alte
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = DogmaApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -211,7 +211,7 @@ Get information on a dogma effect  --- Alternate route: `/dev/dogma/effects/{eff
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = DogmaApi();
 var effectId = 56; // int | A dogma effect ID

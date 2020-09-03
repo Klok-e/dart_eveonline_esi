@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationCorporationIdMiningObserversObserverId200Ok {
   /* The character that did the mining  */

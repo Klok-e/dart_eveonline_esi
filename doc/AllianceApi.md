@@ -1,8 +1,8 @@
-# openapi.api.AllianceApi
+# dart_eveonline_esi.api.AllianceApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -24,7 +24,7 @@ List all active player alliances  --- Alternate route: `/dev/alliances/`  Altern
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = AllianceApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -69,7 +69,7 @@ Public information about an alliance  --- Alternate route: `/dev/alliances/{alli
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = AllianceApi();
 var allianceId = 56; // int | An EVE alliance ID
@@ -116,7 +116,7 @@ List all current member corporations of an alliance  --- Alternate route: `/dev/
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = AllianceApi();
 var allianceId = 56; // int | An EVE alliance ID
@@ -163,7 +163,7 @@ Get the icon urls for a alliance  --- Alternate route: `/legacy/alliances/{allia
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = AllianceApi();
 var allianceId = 56; // int | An EVE alliance ID

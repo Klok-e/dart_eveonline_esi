@@ -1,8 +1,8 @@
-# openapi.model.GetCharactersCharacterIdPlanetsPlanetIdFactoryDetails
+# dart_eveonline_esi.model.GetCharactersCharacterIdPlanetsPlanetIdFactoryDetails
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

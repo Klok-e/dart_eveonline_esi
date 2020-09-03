@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetSovereigntyStructures200Ok {
   /* The alliance that owns the structure.  */

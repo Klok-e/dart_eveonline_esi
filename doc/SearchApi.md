@@ -1,8 +1,8 @@
-# openapi.api.SearchApi
+# dart_eveonline_esi.api.SearchApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -22,7 +22,7 @@ Search for entities that match a given sub-string.  --- Alternate route: `/dev/c
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -83,7 +83,7 @@ Search for entities that match a given sub-string.  --- Alternate route: `/dev/s
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = SearchApi();
 var categories = []; // List<String> | Type of entities to search for

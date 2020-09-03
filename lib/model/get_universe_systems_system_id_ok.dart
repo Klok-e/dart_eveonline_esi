@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetUniverseSystemsSystemIdOk {
   /* The constellation this solar system is in */

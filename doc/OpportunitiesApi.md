@@ -1,8 +1,8 @@
-# openapi.api.OpportunitiesApi
+# dart_eveonline_esi.api.OpportunitiesApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -25,7 +25,7 @@ Return a list of tasks finished by a character  --- Alternate route: `/dev/chara
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -76,7 +76,7 @@ Return a list of opportunities groups  --- Alternate route: `/dev/opportunities/
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = OpportunitiesApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -121,7 +121,7 @@ Return information of an opportunities group  --- Alternate route: `/dev/opportu
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = OpportunitiesApi();
 var groupId = 56; // int | ID of an opportunities group
@@ -172,7 +172,7 @@ Return a list of opportunities tasks  --- Alternate route: `/dev/opportunities/t
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = OpportunitiesApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -217,7 +217,7 @@ Return information of an opportunities task  --- Alternate route: `/dev/opportun
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = OpportunitiesApi();
 var taskId = 56; // int | ID of an opportunities task

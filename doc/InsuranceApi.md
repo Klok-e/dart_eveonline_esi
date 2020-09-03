@@ -1,8 +1,8 @@
-# openapi.api.InsuranceApi
+# dart_eveonline_esi.api.InsuranceApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -21,7 +21,7 @@ Return available insurance levels for all ship types  --- Alternate route: `/dev
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = InsuranceApi();
 var acceptLanguage = acceptLanguage_example; // String | Language to use in the response

@@ -1,8 +1,8 @@
-# openapi.model.DeleteCharactersCharacterIdMailLabelsLabelIdUnprocessableEntity
+# dart_eveonline_esi.model.DeleteCharactersCharacterIdMailLabelsLabelIdUnprocessableEntity
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

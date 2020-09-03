@@ -1,8 +1,8 @@
-# openapi.api.FactionWarfareApi
+# dart_eveonline_esi.api.FactionWarfareApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -28,7 +28,7 @@ Statistical overview of a character involved in faction warfare  --- Alternate r
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -79,7 +79,7 @@ Statistics about a corporation involved in faction warfare  --- Alternate route:
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -130,7 +130,7 @@ Top 4 leaderboard of factions for kills and victory points separated by total, l
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = FactionWarfareApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -175,7 +175,7 @@ Top 100 leaderboard of pilots for kills and victory points separated by total, l
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = FactionWarfareApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -220,7 +220,7 @@ Top 10 leaderboard of corporations for kills and victory points separated by tot
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = FactionWarfareApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -265,7 +265,7 @@ Statistical overviews of factions involved in faction warfare  --- Alternate rou
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = FactionWarfareApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -310,7 +310,7 @@ An overview of the current ownership of faction warfare solar systems  --- Alter
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = FactionWarfareApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -355,7 +355,7 @@ Data about which NPC factions are at war  --- Alternate route: `/dev/fw/wars/`  
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = FactionWarfareApi();
 var datasource = datasource_example; // String | The server name you would like data from

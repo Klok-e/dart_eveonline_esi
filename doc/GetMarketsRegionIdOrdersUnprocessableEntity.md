@@ -1,8 +1,8 @@
-# openapi.model.GetMarketsRegionIdOrdersUnprocessableEntity
+# dart_eveonline_esi.model.GetMarketsRegionIdOrdersUnprocessableEntity
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetWarsWarIdAggressor {
   /* Alliance ID if and only if the aggressor is an alliance */

@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCharactersCharacterIdOrdersHistory200Ok {
   /* Number of days the order was valid for (starting from the issued date). An order expires at time issued + duration */

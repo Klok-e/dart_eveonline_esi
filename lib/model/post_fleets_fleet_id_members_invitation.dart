@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class PostFleetsFleetIdMembersInvitation {
   /* The character you want to invite */

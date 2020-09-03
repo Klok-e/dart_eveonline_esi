@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetWarsWarIdDefender {
   /* Alliance ID if and only if the defender is an alliance */

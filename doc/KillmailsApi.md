@@ -1,8 +1,8 @@
-# openapi.api.KillmailsApi
+# dart_eveonline_esi.api.KillmailsApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -23,7 +23,7 @@ Return a list of a character's kills and losses going back 90 days  --- Alternat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -76,7 +76,7 @@ Get a list of a corporation's kills and losses going back 90 days  --- Alternate
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -129,7 +129,7 @@ Return a single killmail from its ID and hash  --- Alternate route: `/dev/killma
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = KillmailsApi();
 var killmailHash = killmailHash_example; // String | The killmail hash for verification

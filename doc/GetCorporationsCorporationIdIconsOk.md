@@ -1,8 +1,8 @@
-# openapi.model.GetCorporationsCorporationIdIconsOk
+# dart_eveonline_esi.model.GetCorporationsCorporationIdIconsOk
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

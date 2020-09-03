@@ -1,8 +1,8 @@
-# openapi.model.GetFwLeaderboardsCorporationsLastWeekLastWeek
+# dart_eveonline_esi.model.GetFwLeaderboardsCorporationsLastWeekLastWeek
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

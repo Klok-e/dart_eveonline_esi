@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationsCorporationIdFwStatsKills {
   /* Last week's total number of kills by members of the given corporation against enemy factions */

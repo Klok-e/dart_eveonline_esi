@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCharactersCharacterIdAttributesOk {
   /* Neural remapping cooldown after a character uses remap accrued over time */

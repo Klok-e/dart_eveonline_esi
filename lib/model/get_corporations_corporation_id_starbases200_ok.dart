@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationsCorporationIdStarbases200Ok {
   /* The moon this starbase (POS) is anchored on, unanchored POSes do not have this information */

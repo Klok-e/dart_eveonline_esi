@@ -1,8 +1,8 @@
-# openapi.model.PutFleetsFleetIdSquadsSquadIdNaming
+# dart_eveonline_esi.model.PutFleetsFleetIdSquadsSquadIdNaming
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

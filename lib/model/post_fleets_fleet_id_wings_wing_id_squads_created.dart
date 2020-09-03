@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class PostFleetsFleetIdWingsWingIdSquadsCreated {
   /* The squad_id of the newly created squad */

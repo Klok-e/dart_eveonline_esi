@@ -1,8 +1,8 @@
-# openapi.api.SovereigntyApi
+# dart_eveonline_esi.api.SovereigntyApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -23,7 +23,7 @@ Shows sovereignty data for campaigns.  --- Alternate route: `/dev/sovereignty/ca
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = SovereigntyApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -68,7 +68,7 @@ Shows sovereignty information for solar systems  --- Alternate route: `/dev/sove
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = SovereigntyApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -113,7 +113,7 @@ Shows sovereignty data for structures.  --- Alternate route: `/dev/sovereignty/s
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = SovereigntyApi();
 var datasource = datasource_example; // String | The server name you would like data from

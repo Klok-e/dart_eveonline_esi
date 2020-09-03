@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetUniverseRaces200Ok {
   /* The alliance generally associated with this race */

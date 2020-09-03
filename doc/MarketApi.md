@@ -1,8 +1,8 @@
-# openapi.api.MarketApi
+# dart_eveonline_esi.api.MarketApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -31,7 +31,7 @@ List open market orders placed by a character  --- Alternate route: `/dev/charac
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -82,7 +82,7 @@ List cancelled and expired market orders placed by a character up to 90 days in 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -135,7 +135,7 @@ List open market orders placed on behalf of a corporation  --- Alternate route: 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -188,7 +188,7 @@ List cancelled and expired market orders placed on behalf of a corporation up to
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 
@@ -241,7 +241,7 @@ Get a list of item groups  --- Alternate route: `/dev/markets/groups/`  Alternat
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = MarketApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -286,7 +286,7 @@ Get information on an item group  --- Alternate route: `/dev/markets/groups/{mar
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = MarketApi();
 var marketGroupId = 56; // int | An Eve item group ID
@@ -337,7 +337,7 @@ Return a list of prices  --- Alternate route: `/dev/markets/prices/`  Alternate 
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = MarketApi();
 var datasource = datasource_example; // String | The server name you would like data from
@@ -382,7 +382,7 @@ Return a list of historical market statistics for the specified type in a region
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = MarketApi();
 var regionId = 56; // int | Return statistics in this region
@@ -431,7 +431,7 @@ Return a list of orders in a region  --- Alternate route: `/dev/markets/{region_
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = MarketApi();
 var orderType = orderType_example; // String | Filter buy/sell orders, return all orders by default. If you query without type_id, we always return both buy and sell orders
@@ -484,7 +484,7 @@ Return a list of type IDs that have active orders in the region, for efficient m
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = MarketApi();
 var regionId = 56; // int | Return statistics in this region
@@ -533,7 +533,7 @@ Return all orders in a structure  --- Alternate route: `/dev/markets/structures/
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 // TODO Configure OAuth2 access token for authorization: evesso
 //defaultApiClient.getAuthentication<OAuth>('evesso').accessToken = 'YOUR_ACCESS_TOKEN';
 

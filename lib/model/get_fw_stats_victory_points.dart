@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetFwStatsVictoryPoints {
   /* Last week's victory points gained */

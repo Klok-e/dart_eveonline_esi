@@ -1,8 +1,8 @@
-# openapi.model.GetUniverseGraphicsGraphicIdOk
+# dart_eveonline_esi.model.GetUniverseGraphicsGraphicIdOk
 
 ## Load the model package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 ## Properties

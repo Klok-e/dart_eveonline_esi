@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCorporationsCorporationIdFwStatsOk {
   /* The enlistment date of the given corporation into faction warfare. Will not be included if corporation is not enlisted in faction warfare */

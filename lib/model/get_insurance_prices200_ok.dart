@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetInsurancePrices200Ok {
   /* A list of a available insurance levels for this ship type */

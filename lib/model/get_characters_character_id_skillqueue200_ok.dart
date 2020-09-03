@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetCharactersCharacterIdSkillqueue200Ok {
   /* Date on which training of the skill will complete. Omitted if the skill queue is paused. */

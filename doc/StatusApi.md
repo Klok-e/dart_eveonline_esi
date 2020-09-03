@@ -1,8 +1,8 @@
-# openapi.api.StatusApi
+# dart_eveonline_esi.api.StatusApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 ```
 
 All URIs are relative to *https://esi.evetech.net/latest*
@@ -21,7 +21,7 @@ EVE Server status  --- Alternate route: `/dev/status/`  Alternate route: `/legac
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:dart_eveonline_esi/api.dart';
 
 var api_instance = StatusApi();
 var datasource = datasource_example; // String | The server name you would like data from

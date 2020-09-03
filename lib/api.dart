@@ -1,4 +1,4 @@
-library openapi.api;
+library dart_eveonline_esi.api;
 
 import 'dart:async';
 import 'dart:convert';

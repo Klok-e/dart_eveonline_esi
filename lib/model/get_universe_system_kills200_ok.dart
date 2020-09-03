@@ -1,4 +1,4 @@
-part of openapi.api;
+part of dart_eveonline_esi.api;
 
 class GetUniverseSystemKills200Ok {
   /* Number of NPC ships killed in this system */
