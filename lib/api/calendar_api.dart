@@ -256,7 +256,7 @@ class CalendarApi {
     else {
     }
 
-    var response = await apiClient.invokeAPI(path,
+    var response1 = await apiClient.invokeAPI(path,
                                              'PUT',
                                              queryParams,
                                              postBody,
@@ -264,17 +264,17 @@ class CalendarApi {
                                              formParams,
                                              nullableContentType,
                                              authNames);
-    return response;
+    return response1;
   }
 
   /// Respond to an event
   ///
   /// Set your response status to an event  --- Alternate route: &#x60;/dev/characters/{character_id}/calendar/{event_id}/&#x60;  Alternate route: &#x60;/legacy/characters/{character_id}/calendar/{event_id}/&#x60;  Alternate route: &#x60;/v3/characters/{character_id}/calendar/{event_id}/&#x60;  Alternate route: &#x60;/v4/characters/{character_id}/calendar/{event_id}/&#x60;  --- This route is cached for up to 5 seconds
   Future putCharactersCharacterIdCalendarEventId(int characterId, int eventId, PutCharactersCharacterIdCalendarEventIdResponse response, { String datasource, String token }) async {
-    Response response = await putCharactersCharacterIdCalendarEventIdWithHttpInfo(characterId, eventId, response,  datasource: datasource, token: token );
-    if(response.statusCode >= 400) {
-      throw ApiException(response.statusCode, _decodeBodyBytes(response));
-    } else if(response.body != null) {
+    Response response1 = await putCharactersCharacterIdCalendarEventIdWithHttpInfo(characterId, eventId, response,  datasource: datasource, token: token );
+    if(response1.statusCode >= 400) {
+      throw ApiException(response1.statusCode, _decodeBodyBytes(response1));
+    } else if(response1.body != null) {
     } else {
       return;
     }
